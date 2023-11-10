@@ -1,8 +1,6 @@
-# TCSS305-hw-template
+# TCSS305-Group-Project
 
-TCSS 305 Assignment Template
-
-TCSS 305 - Instructor
+TCSS 305 Tetris
 
 Autumn 2023
 
