@@ -4,13 +4,13 @@
  * An implementation of the classic game "Tetris".
  */
 
-package model;
+package edu.uw.tcss.model;
 
 
+import edu.uw.tcss.model.wallkicks.WallKick;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import model.wallkicks.WallKick;
 
 /**
  * Represents a Tetris board. Board objects communicate with clients via Observer pattern. 
@@ -243,7 +243,7 @@ public class Board {
                 move(myCurrentPiece.rotateCW());
             } else {
                 final MovableTetrisPiece cwPiece = myCurrentPiece.rotateCW();
-                final Point[] offsets = WallKick.getWallKicks(cwPiece.getTetrisPiece(),
+                final Point[] offsets = edu.uw.tcss.model.wallkicks.WallKick.getWallKicks(cwPiece.getTetrisPiece(),
                                                     myCurrentPiece.getRotation(),
                                                     cwPiece.getRotation());
                 for (final Point p : offsets) {
@@ -522,7 +522,7 @@ public class Board {
         prepareNextMovablePiece();
         return new MovableTetrisPiece(
                        next,
-                       new Point((myWidth - myNextPiece.getWidth()) / 2, startY));
+                       new MyPoint((myWidth - myNextPiece.getWidth()) / 2, startY));
     }
     
     /**

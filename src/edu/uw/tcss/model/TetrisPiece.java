@@ -4,7 +4,7 @@
  * An implementation of the classic game "Tetris".
  */
 
-package model;
+package edu.uw.tcss.model;
 
 import java.util.Random;
 
@@ -15,7 +15,7 @@ import java.util.Random;
  * @author Alan Fowler
  * @version 1.3
  */
-@SuppressWarnings("CheckStyle")
+@SuppressWarnings("ALL")
 public enum TetrisPiece {
 
     /** The 'I' TetrisPiece. */
@@ -26,7 +26,7 @@ public enum TetrisPiece {
           {{2, 3}, {2, 2}, {2, 1}, {2, 0}},
           {{0, 1}, {1, 1}, {2, 1}, {3, 1}},
           {{1, 3}, {1, 2}, {1, 1}, {1, 0}}},
-      new Point(0, 2), new Point(1, 2), new Point(2, 2), new Point(3, 2) 
+      new MyPoint(0, 2), new MyPoint(1, 2), new MyPoint(2, 2), new MyPoint(3, 2)
       ),
 
     /** The 'J' TetrisPiece. */
@@ -37,7 +37,7 @@ public enum TetrisPiece {
           {{1, 2}, {2, 2}, {1, 1}, {1, 0}},
           {{0, 1}, {1, 1}, {2, 1}, {2, 0}},
           {{1, 2}, {1, 1}, {0, 0}, {1, 0}}},
-      new Point(0, 2), new Point(0, 1), new Point(1, 1), new Point(2, 1)),
+      new MyPoint(0, 2), new MyPoint(0, 1), new MyPoint(1, 1), new MyPoint(2, 1)),
 
     /** The 'L' TetrisPiece. */
     L(3, 2,
@@ -47,7 +47,7 @@ public enum TetrisPiece {
           {{1, 2}, {1, 1}, {1, 0}, {2, 0}},
           {{0, 1}, {1, 1}, {2, 1}, {0, 0}},
           {{0, 2}, {1, 2}, {1, 1}, {1, 0}}},           
-      new Point(2, 2), new Point(0, 1), new Point(1, 1), new Point(2, 1)),
+      new MyPoint(2, 2), new MyPoint(0, 1), new MyPoint(1, 1), new MyPoint(2, 1)),
 
     /** The 'O' TetrisPiece. */
     O(3, 2,
@@ -57,7 +57,7 @@ public enum TetrisPiece {
             {{1, 2}, {2, 2}, {1, 1}, {2, 1}},
             {{1, 2}, {2, 2}, {1, 1}, {2, 1}},
             {{1, 2}, {2, 2}, {1, 1}, {2, 1}}},
-      new Point(1, 2), new Point(2, 2), new Point(1, 1), new Point(2, 1)),
+      new MyPoint(1, 2), new MyPoint(2, 2), new MyPoint(1, 1), new MyPoint(2, 1)),
 
     /** The 'S' TetrisPiece. */
     S(3, 2,
@@ -67,7 +67,7 @@ public enum TetrisPiece {
           {{1, 2}, {1, 1}, {2, 1}, {2, 0}},
           {{1, 1}, {2, 1}, {0, 0}, {1, 0}},
           {{0, 2}, {0, 1}, {1, 1}, {1, 0}}},     
-      new Point(1, 2), new Point(2, 2), new Point(0, 1), new Point(1, 1)),
+      new MyPoint(1, 2), new MyPoint(2, 2), new MyPoint(0, 1), new MyPoint(1, 1)),
 
     /** The 'T' TetrisPiece. */
     T(3, 2,
@@ -77,7 +77,7 @@ public enum TetrisPiece {
           {{1, 2}, {1, 1}, {2, 1}, {1, 0}},
           {{0, 1}, {1, 1}, {2, 1}, {1, 0}},
           {{1, 2}, {0, 1}, {1, 1}, {1, 0}}},
-      new Point(1, 2), new Point(0, 1), new Point(1, 1), new Point(2, 1)),
+      new MyPoint(1, 2), new MyPoint(0, 1), new MyPoint(1, 1), new MyPoint(2, 1)),
 
     /** The 'Z' TetrisPiece. */
     Z(3, 2,
@@ -87,7 +87,7 @@ public enum TetrisPiece {
           {{2, 2}, {1, 1}, {2, 1}, {1, 0}},
           {{0, 1}, {1, 1}, {1, 0}, {2, 0}},
           {{1, 2}, {0, 1}, {1, 1}, {0, 0}}},
-      new Point(0, 2), new Point(1, 2), new Point(1, 1), new Point(2, 1));
+      new MyPoint(0, 2), new MyPoint(1, 2), new MyPoint(1, 1), new MyPoint(2, 1));
 
     
     // Other class constants
@@ -112,7 +112,7 @@ public enum TetrisPiece {
     /**
      * The 4 Points of the TetrisPiece.
      */
-    private final Point[] myPoints;
+    private final MyPoint[] myPoints;
     
     /**
      * The 4 arrays of 4 points. 
@@ -136,7 +136,7 @@ public enum TetrisPiece {
     TetrisPiece(final int theWidth, final int theHeight,
                 final Block theBlock, 
                 final int[][][] thePointsByRotation, 
-                final Point... thePoints) {
+                final MyPoint... thePoints) {
         myPointsByRotation = thePointsByRotation.clone();
         myWidth = theWidth;
         myHeight = theHeight;
@@ -176,7 +176,7 @@ public enum TetrisPiece {
      * 
      * @return the Points of the TetrisPiece.
      */
-    public Point[] getPoints() {
+    public MyPoint[] getPoints() {
         return myPoints.clone();
     }
     /**

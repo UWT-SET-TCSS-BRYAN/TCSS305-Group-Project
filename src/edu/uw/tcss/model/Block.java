@@ -1,4 +1,4 @@
-package model;
+package edu.uw.tcss.model;
 
 /**
  * The different types of blocks that can be stored in a Board's grid.

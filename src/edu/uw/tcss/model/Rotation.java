@@ -4,7 +4,7 @@
  * An implementation of the classic game "Tetris".
  */
 
-package model;
+package edu.uw.tcss.model;
 
 import java.util.Random;
 
@@ -14,6 +14,7 @@ import java.util.Random;
  * @author Alan Fowler
  * @version 1.2
  */
+@SuppressWarnings("PublicMethodNotExposedInInterface")
 public enum Rotation {
 
     /**

@@ -1,6 +1,6 @@
 package edu.uw.tcss.app;
 
-import model.Board;
+import edu.uw.tcss.model.Board;
 
 public class SandBox {
 

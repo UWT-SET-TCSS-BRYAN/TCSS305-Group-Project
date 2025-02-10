@@ -4,7 +4,7 @@
  * An implementation of the classic game "Tetris".
  */
 
-package model;
+package edu.uw.tcss.model;
 
 /**
  * Represents a TetrisPiece with a position and a rotation.
@@ -60,7 +60,7 @@ public final class MovableTetrisPiece {
      * @param theRotation the initial angle of the TetrisPiece.
      */
     public MovableTetrisPiece(final TetrisPiece theTetrisPiece,
-                              final Point thePosition, 
+                              final Point thePosition,
                               final Rotation theRotation) {
         super();
 
@@ -217,24 +217,24 @@ public final class MovableTetrisPiece {
      */
     private Point[] getPoints(final Point thePoint) {
 
-        final Point[] blocks = myTetrisPiece.getPoints();
+        final MyPoint[] blocks = myTetrisPiece.getPoints();
         
         for (int i = 0; i < blocks.length; i++) {
             final Point block = blocks[i];
             if (myTetrisPiece != TetrisPiece.O) {
                 switch (myRotation) {
                     case QUARTER:
-                        blocks[i] = new Point(block.y(),
+                        blocks[i] = new MyPoint(block.y(),
                                               myTetrisPiece.getWidth() - block.x() - 1);
                         
                         break;
                     case HALF:
-                        blocks[i] = new Point(myTetrisPiece.getWidth() - block.x() - 1,
+                        blocks[i] = new MyPoint(myTetrisPiece.getWidth() - block.x() - 1,
                                               myTetrisPiece.getWidth() - block.y() - 1);
                         
                         break;
                     case THREEQUARTER:                 
-                        blocks[i] = new Point(myTetrisPiece.getWidth() - block.y() - 1,
+                        blocks[i] = new MyPoint(myTetrisPiece.getWidth() - block.y() - 1,
                                               block.x());
                         
                         
