@@ -1,26 +1,30 @@
 package edu.uw.tcss.app;
 
-import edu.uw.tcss.model.Board;
+import edu.uw.tcss.model.TetrisGame;
 
 public class SandBox {
 
     public static void main(final String[] theArgs) {
-        Board b = new Board();
-        b.newGame();
-        System.out.println(b);
+        TetrisGame game = new TetrisGame();
+        game.newGame();
+        System.out.println(game);
 
-        b.step();
-        System.out.println(b);
-        b.rotateCW();
-        System.out.println(b);
-        b.rotateCW();
-        System.out.println(b);
-        b.rotateCW();
-        System.out.println(b);
-        b.rotateCW();
-        System.out.println(b);
-        b.drop();
-        System.out.println(b);
+        game.step();
+        System.out.println(game);
+        game.step();
+        System.out.println(game);
+        game.step();
+        System.out.println(game);
+        game.rotateCW();
+        System.out.println(game);
+        game.rotateCW();
+        System.out.println(game);
+        game.rotateCW();
+        System.out.println(game);
+        game.rotateCW();
+        System.out.println(game);
+        game.drop();
+        System.out.println(game);
 
     }
 
