@@ -16,9 +16,7 @@ The "braces on same line" style for Winter 2025 TCSS 305.
     <property name="max" value="100"/>
   </module>
   <module name="TreeWalker">
-    <module name="JavadocVariable">
-      <property name="scope" value="public"/>
-    </module>
+    <module name="JavadocVariable"/>
     <module name="MissingJavadocType"/>
     <module name="MissingJavadocMethod">
       <property name="scope" value="public"/>

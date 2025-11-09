@@ -2,7 +2,7 @@
 
 TCSS 305 Tetris
 
-Autumn 2023
+Autumn 2025
 
 This is the starter code template for TCSS 305 assignments.
 

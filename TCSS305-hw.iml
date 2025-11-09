@@ -29,10 +29,10 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/tetris-0.0.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/tetris-model-1.0.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
