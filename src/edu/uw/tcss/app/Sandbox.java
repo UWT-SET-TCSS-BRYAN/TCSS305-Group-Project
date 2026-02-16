@@ -2,7 +2,7 @@ package edu.uw.tcss.app;
 
 import edu.uw.tcss.model.TetrisGame;
 
-public class SandBox {
+public class Sandbox {
 
     public static void main(final String[] theArgs) {
         TetrisGame game = new TetrisGame();
