@@ -1,58 +1,34 @@
-# TCSS 305 – Group Project: Tetris
+# TCSS 305 – Group Project: Tetris (No AI Agent Track)
 
-**UW Tacoma | Winter 2026**
+**UW Tacoma | Autumn 2026**
 
-## Assignment Instructions
+## Project Instructions
 
-Full instructions available at:
-[Group Project: Tetris](https://cfb3.github.io/TCSS305-GUIDES/assignments/group-project/)
+Full instructions: https://cfb3.github.io/TCSS305-26-AUTUMN/assignments/group-project/tetris/
 
-API Documentation available at:
-[Tetris Model API](https://uwt-set-tcss-bryan.github.io/TCSS305-Group-Project/edu/uw/tcss/model/package-summary.html)
+Each sprint has its own page, linked from there. The sprint pages are the full instructions. This file is only a map of the project.
+
+Back-end API documentation: https://uwt-set-tcss-bryan.github.io/TCSS305-Group-Project
 
 ## Project Structure
 
 ```
 src/edu/uw/tcss/
 ├── app/
-│   └── SandBox.java               (sandbox for testing the model API)
-├── model/                          (your model classes go here)
-└── view/                           (your GUI classes go here)
+│   └── Sandbox.java                (console demo of the back end)
+├── model/                          (empty until Sprint 3, when the back-end source replaces the jar)
+└── view/                           (your Swing front end goes here)
 
-docs/                               (Tetris model API JavaDoc)
+docs/                               (back-end API Javadoc, the same pages as the link above)
 
-tetris-model-1.0.0.jar              (Tetris model library)
-tetris-model-1.0.0-javadoc.jar      (Tetris model JavaDoc archive)
+tetris-model-1.0.0.jar              (the back end, as a library)
+tetris-model-1.0.0-javadoc.jar      (the back end's Javadoc, used by IntelliJ)
 
-project root/
-├── executive-summary.md            (your submission notes)
-└── README.md                       (this file)
+executive-summary.md                (your team's notes, one section per sprint)
+README.md                           (this file)
 ```
-
-## Getting Started
-
-1. **Explore the model API:**
-   - Review the API Documentation linked above
-   - Run `SandBox.java` to see the model in action
-   - Study `TetrisGame`, `GameControls`, and `GameEvent` classes
-
-2. **Build the GUI:**
-   - Create your view classes in `src/edu/uw/tcss/view/`
-   - Use `PropertyChangeListener` to listen for `GameEvent` updates from the model
-   - Implement the game board, next piece preview, and score display
-
-3. **Connect the model to the view:**
-   - Use `PropertyChangeEnabledGameControls` to register listeners
-   - Call game control methods (move, rotate, drop) in response to user input
 
 ## Running the Application
 
-1. Ensure the `tetris-model-1.0.0.jar` is on your classpath
-2. Run your main application class
-3. The GUI should display the Tetris game board and controls
-
-## Running Tests
-
-1. Right-click on the `test` folder in IntelliJ
-2. Select **Run 'All Tests'**
-3. For coverage: Right-click → **Run with Coverage**
+1. Run `Sandbox.java`.
+2. It prints the board after each call it makes to `TetrisGame`. Compare each board with the call that produced it.

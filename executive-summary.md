@@ -1,166 +1,143 @@
 # Executive Summary
 
+TCSS 305 Group Project: Tetris (No AI Agent Track), Autumn 2026
+
+Fill in one sprint section each sprint. Leave earlier sprints' entries as they are, so the file covers the whole project.
+
+Teams have four or five members, and a pair is possible. Delete the lines for members your team does not have, here and in every sprint section.
+
 ## Team Members
 
-- Member 1 (GitHub username)
-- Member 2 (GitHub username)
-- Member 3 (GitHub username)
-- Member 4 (GitHub username)
+- [Member 1 name] ([GitHub username])
+- [Member 2 name] ([GitHub username])
+- [Member 3 name] ([GitHub username])
+- [Member 4 name] ([GitHub username])
+- [Member 5 name] ([GitHub username])
 
 ## Meeting Agenda
 
-[Link to Google Doc meeting agenda](replace with your link)
+[Link to your meeting agenda Google Doc. Give it view access.]
 
 ---
 
 ## Sprint 0
 
-### Contributions
+### Sprint 0 Contributions
 
-For each group member, write 2–3 paragraphs describing their contribution to Sprint 0. Include details about what they worked on, what they learned, and how they supported the team.
+[Two to three paragraphs for each member, describing what they worked on, what they learned, and how they supported the team.]
 
-**Member 1:**
+**[Member 1 name]:**
 
+**[Member 2 name]:**
 
+**[Member 3 name]:**
 
-**Member 2:**
+**[Member 4 name]:**
 
+**[Member 5 name]:**
 
+### Sprint 0 Comments
 
-**Member 3:**
+[Issues, ideas, odd behavior in the code, and anything else worth recording. A known problem named here still counts as complete work.]
 
-
-
-**Member 4:**
-
-
-
-### Comments
-
-_Any issues, ideas, code weirdness, etc._
+**Statement:** [Write that your team wrote the code itself, without a coding agent.]
 
 ---
 
 ## Sprint 1
 
-### Contributions
+### Sprint 1 Contributions
 
-For each group member, briefly describe their contributions to Sprint 1.
+[What each member contributed to Sprint 1.]
 
-**Member 1:**
+**[Member 1 name]:**
 
+**[Member 2 name]:**
 
+**[Member 3 name]:**
 
-**Member 2:**
+**[Member 4 name]:**
 
+**[Member 5 name]:**
 
+### Sprint 1 Comments
 
-**Member 3:**
+[Any issues, ideas, odd code, or other notes.]
 
-
-
-**Member 4:**
-
-
-
-### Comments
-
-_Any issues, ideas, code weirdness, etc._
+**Statement:** [Write that your team wrote the code itself, without a coding agent.]
 
 ---
 
 ## Sprint 2
 
-### Contributions
+### Sprint 2 Contributions
 
-For each group member, briefly describe their contributions to Sprint 2.
+[What each member contributed to Sprint 2.]
 
-**Member 1:**
+**[Member 1 name]:**
 
+**[Member 2 name]:**
 
+**[Member 3 name]:**
 
-**Member 2:**
+**[Member 4 name]:**
 
+**[Member 5 name]:**
 
+### Sprint 2 Meetings
 
-**Member 3:**
+**Meeting minutes:** [Link to the Google Doc with your daily meeting minutes. Give it view access.]
 
+**Other meetings:** [Any other meetings: where, when, how, and what you discussed.]
 
+**Communication outside meetings:** [How your team communicated outside meetings.]
 
-**Member 4:**
+### Sprint 2 Comments
 
+[Issues, ideas, odd behavior in the code, and anything else worth recording.]
 
-
-### Meetings
-
-**Meeting Minutes:** [Link to Google Doc](replace with your link)
-
-Describe any other meetings beyond the required daily meetings (where/when/how, what was discussed):
-
-
-
-Describe the primary forms of communication your group used besides formal meetings:
-
-
-
-### Comments
-
-_Any issues, ideas, code weirdness, etc._
+**Statement:** [Write that your team wrote the code itself, without a coding agent.]
 
 ---
 
 ## Sprint 3
 
-### Contributions
+### Sprint 3 Contributions
 
-For each group member, briefly describe their contributions to Sprint 3.
+[What each member contributed to Sprint 3.]
 
-**Member 1:**
+**[Member 1 name]:**
 
+**[Member 2 name]:**
 
+**[Member 3 name]:**
 
-**Member 2:**
+**[Member 4 name]:**
 
+**[Member 5 name]:**
 
+### Sprint 3 Meetings
 
-**Member 3:**
+**Meeting minutes:** [Link to the Google Doc with your daily meeting minutes. Give it view access.]
 
+**Other meetings:** [Any other meetings: where, when, how, and what you discussed.]
 
+**Communication outside formal meetings:** [How your team communicated outside formal meetings.]
 
-**Member 4:**
+### Sprint 3 Comments
 
-
-
-### Meetings
-
-**Meeting Minutes:** [Link to Google Doc](replace with your link)
-
-Describe any other meetings beyond the required daily meetings (where/when/how, what was discussed):
-
-
-
-Describe the primary forms of communication your group used besides formal meetings:
-
-
+[Issues, ideas, odd behavior in the code, and anything else worth recording.]
 
 ### Extra Features
 
-**Front-End Feature:** _(Sound/Music, Changeable Key Bindings, Persistent High Scores, Color Themes, or Other)_
+[Which extra features your team built. A pair builds one and deletes the other entry.]
 
-Description:
+**Front end:** [Sound/Music, User Changeable Key Bindings, Persistent High Score Keeping, User Changeable Color Themes, or Other]
 
+[What the feature does and how a player uses it.]
 
+**Back end:** [Panic Mode, Hyper Piece Mode, or Other]
 
-**Back-End Feature:** _(Panic Mode, Hyper Piece Mode, or Other)_
+[What the feature does and how a player uses it.]
 
-Description:
-
-
-
-**Extra Credit Features (if any):**
-
-
-
-### Comments
-
-_Any issues, ideas, code weirdness, etc._
+**Statement:** [Write that your team wrote the code itself, without a coding agent.]
